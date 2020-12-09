@@ -108,7 +108,7 @@ primus.on('connection', (spark) => {
         rooms.forEach((players, roomId) => {
             broadcastUpdatedProperties(players);
         });
-    }, 30);
+    }, 16.7);
 
 });
 
