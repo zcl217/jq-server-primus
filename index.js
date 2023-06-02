@@ -112,7 +112,7 @@ primus.on('connection', (spark) => {
 
 });
 
-server.listen(3333);
+server.listen(443);
 primus.save('primus.js');
 
 function handleRoomCreation(spark, message) {
